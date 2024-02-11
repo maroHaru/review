@@ -5,3 +5,5 @@ webcamp = "オンラインプログラミング学習"
 puts webcamp
 puts webcamp
 
+Pi = 3.14
+puts Pi
