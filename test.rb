@@ -33,3 +33,14 @@ def create_number(number)
 end
 
 puts "#{create_number(7777777)}"
+
+numbers = [1, 2, 3]
+numbers.each do |n| 
+  puts n
+end
+
+numbers = [1, 2, 3, 4, 5]
+new_numbers = []
+numbers.map { |n| new_numbers << n * 10 }
+
+puts new_numbers
